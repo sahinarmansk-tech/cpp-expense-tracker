@@ -1,0 +1,68 @@
+Welcome to the Command-Line Expense Tracker!
+
+========== EXPENSE TRACKER ==========
+1. Add expense
+2. List all expenses
+3. Show total by category
+4. Show overall total
+5. Exit
+=====================================
+Choose an option (1-5): x
+Invalid choice. Enter a whole number from 1 to 5.
+Choose an option (1-5): 9
+Invalid choice. Enter a whole number from 1 to 5.
+Choose an option (1-5): 1
+
+--- Add an Expense ---
+Description: 
+Input cannot be empty. Please try again.
+Description: Coffee
+Category (e.g. Food, Travel): 
+Input cannot be empty. Please try again.
+Category (e.g. Food, Travel): Food
+Amount (Rs.): abc
+Invalid amount. Enter a number greater than 0 (example: 250.50).
+Amount (Rs.): 0
+Invalid amount. Enter a number greater than 0 (example: 250.50).
+Amount (Rs.): -1
+Invalid amount. Enter a number greater than 0 (example: 250.50).
+Amount (Rs.): 12abc
+Invalid amount. Enter a number greater than 0 (example: 250.50).
+Amount (Rs.): 200
+Expense added successfully. Reference ID: 1
+
+========== EXPENSE TRACKER ==========
+1. Add expense
+2. List all expenses
+3. Show total by category
+4. Show overall total
+5. Exit
+=====================================
+Choose an option (1-5): 3
+
+--- Total by Category ---
+Enter category to total: Dining
+No expenses found for category 'Dining'.
+
+========== EXPENSE TRACKER ==========
+1. Add expense
+2. List all expenses
+3. Show total by category
+4. Show overall total
+5. Exit
+=====================================
+Choose an option (1-5): 4
+
+--- Overall Expense Total ---
+Number of expenses: 1
+Total spent: Rs. 200.00
+
+========== EXPENSE TRACKER ==========
+1. Add expense
+2. List all expenses
+3. Show total by category
+4. Show overall total
+5. Exit
+=====================================
+Choose an option (1-5): 5
+Thank you for using the Expense Tracker. Goodbye!

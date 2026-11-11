@@ -1,0 +1,8 @@
+# Compiled executables
+expense_tracker
+expense_tracker.exe
+*.o
+
+# IDE / editor files
+.vscode/
+.idea/
